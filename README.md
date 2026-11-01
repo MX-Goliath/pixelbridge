@@ -28,11 +28,20 @@ pushes notifications to it with **zero new phone-side code**.
 
 - **Notifications** with **Reply / Dismiss / Clear-all** (Reply appears only on replyable
   notifications).
+- **Round, full-color app icons** for 46 popular apps (including YouTube, Telegram, ChatGPT, Reddit,
+  Spotify, AIMP, Poweramp, VLC, Musicolet and KDE Connect), shown as large native notification icons
+  and in the app list; small system icons use
+  separate monochrome masks. Icons work offline; unknown sources
+  use the PixelBridge icon. Originals and sources: [`docs/app-icons/`](docs/app-icons/README.md).
 - The watch's **battery** and **version** reported to Gadgetbridge; **find-my-watch** (full-screen
   alarm + sound), a **Find phone** button, and **rotary-crown** scrolling.
 - A full-screen **incoming-call screen** (Answer / Decline / End), **music control** (now-playing +
   transport + volume), and **canned quick-replies**.
 - Two glanceable **Wear OS Tiles** — a notifications digest and a music tile.
+- A **music indicator on the watch face** during connected phone playback; tap it to open a
+  dedicated screen with previous / play-pause / next and volume controls. It disappears when
+  playback pauses or the phone disconnects. The indicator uses a generic music note because the
+  standard Bangle.js music messages do not identify the phone's player.
 
 See [`CHANGELOG.md`](CHANGELOG.md) for the full feature list.
 
