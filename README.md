@@ -28,7 +28,7 @@ pushes notifications to it with **zero new phone-side code**.
 
 - **Notifications** with **Reply / Dismiss / Clear-all** (Reply appears only on replyable
   notifications).
-- **Round, full-color app icons** for 46 popular apps (including YouTube, Telegram, ChatGPT, Reddit,
+- **Round, full-color app icons** for 58 popular apps (including Gosuslugi, Steam, Ozon, YouTube, Telegram, ChatGPT, Reddit,
   Spotify, AIMP, Poweramp, VLC, Musicolet and KDE Connect), shown as large native notification icons
   and in the app list; small system icons use
   separate monochrome masks. Icons work offline; unknown sources

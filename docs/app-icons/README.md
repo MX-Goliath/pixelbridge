@@ -1,7 +1,7 @@
 # Встроенные значки приложений
 
-46 круглых цветных иконок Android-приложений: [папка для проверки](round/).
-Изображения скачаны со страниц приложений в Google Play; иконка VK — из RuStore.
+58 круглых цветных иконок Android-приложений: [папка для проверки](round/).
+Изображения скачаны со страниц приложений в Google Play и RuStore.
 Оригиналы сохранены в [color/](color/), круглые версии — в [round/](round/).
 Иконки скачаны, не нарисованы и не перекрашены; у копий только обрезаны углы по кругу.
 
@@ -14,6 +14,7 @@
 Маленький системный значок Android/Wear OS отображается как одноцветная маска.
 Для него отдельно оставлены [SVG-маски Simple Icons](notification-masks/).
 У плееров без отдельной монохромной маски используется общая музыкальная нота.
+У остальных приложений без отдельной маски маленький значок — логотип PixelBridge.
 Это ограничение системного маленького значка, а не цветной иконки в карточке.
 
 Прямые URL, страницы приложений, размеры и SHA-256: [color/SOURCES.json](color/SOURCES.json).
@@ -68,6 +69,18 @@
 | foobar2000 | [PNG](round/foobar2000.png) | [foobar2000.png](color/foobar2000.png) | [Источник](https://play.google.com/store/apps/details?id=com.foobar2000.foobar2000) |
 | Samsung Music | [PNG](round/samsungmusic.png) | [samsungmusic.png](color/samsungmusic.png) | [Источник](https://play.google.com/store/apps/details?id=com.sec.android.app.music) |
 | KDE Connect | [PNG](round/kdeconnect.png) | [kdeconnect.png](color/kdeconnect.png) | [Источник](https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp) |
+| Госуслуги | [PNG](round/gosuslugi.png) | [gosuslugi.png](color/gosuslugi.png) | [Источник](https://www.rustore.ru/catalog/app/ru.rostel) |
+| Steam | [PNG](round/steam.png) | [steam.png](color/steam.png) | [Источник](https://www.rustore.ru/catalog/app/com.valvesoftware.android.steam.community) |
+| Steam Chat | [PNG](round/steamchat.png) | [steamchat.png](color/steamchat.png) | [Источник](https://www.rustore.ru/catalog/app/com.valvesoftware.android.steam.friendsui) |
+| Ozon | [PNG](round/ozon.png) | [ozon.png](color/ozon.png) | [Источник](https://www.rustore.ru/catalog/app/ru.ozon.app.android) |
+| Wildberries | [PNG](round/wildberries.png) | [wildberries.png](color/wildberries.png) | [Источник](https://www.rustore.ru/catalog/app/com.wildberries.ru) |
+| Авито | [PNG](round/avito.png) | [avito.png](color/avito.png) | [Источник](https://www.rustore.ru/catalog/app/com.avito.android) |
+| Яндекс Go | [PNG](round/yandexgo.png) | [yandexgo.png](color/yandexgo.png) | [Источник](https://www.rustore.ru/catalog/app/ru.yandex.taxi) |
+| Яндекс Почта | [PNG](round/yandexmail.png) | [yandexmail.png](color/yandexmail.png) | [Источник](https://www.rustore.ru/catalog/app/ru.yandex.mail) |
+| Почта Mail | [PNG](round/mailru.png) | [mailru.png](color/mailru.png) | [Источник](https://www.rustore.ru/catalog/app/ru.mail.mailapp) |
+| 2ГИС | [PNG](round/2gis.png) | [2gis.png](color/2gis.png) | [Источник](https://www.rustore.ru/catalog/app/ru.dublgis.dgismobile) |
+| Кинопоиск | [PNG](round/kinopoisk.png) | [kinopoisk.png](color/kinopoisk.png) | [Источник](https://www.rustore.ru/catalog/app/ru.kinopoisk) |
+| RUTUBE | [PNG](round/rutube.png) | [rutube.png](color/rutube.png) | [Источник](https://www.rustore.ru/catalog/app/ru.rutube.app) |
 
 Повторный импорт: `python3 scripts/import-app-icons.py` (нужен Pillow).
 Цветные Android-ресурсы: `watch/src/main/res/drawable-nodpi/ic_color_*.png`.
