@@ -10,6 +10,49 @@ import java.util.Locale
 
 class AppIconsTest {
     @Test
+    fun additionalServicesResolveLabelsAndPackages() {
+        val apps = listOf(
+            Triple("Госуслуги", "ru.rostel", R.drawable.ic_color_gosuslugi),
+            Triple("Steam", "com.valvesoftware.android.steam.community", R.drawable.ic_color_steam),
+            Triple("Steam Chat", "com.valvesoftware.android.steam.friendsui", R.drawable.ic_color_steamchat),
+            Triple("Ozon", "ru.ozon.app.android", R.drawable.ic_color_ozon),
+            Triple("Wildberries", "com.wildberries.ru", R.drawable.ic_color_wildberries),
+            Triple("Авито", "com.avito.android", R.drawable.ic_color_avito),
+            Triple("Яндекс Go", "ru.yandex.taxi", R.drawable.ic_color_yandexgo),
+            Triple("Яндекс Почта", "ru.yandex.mail", R.drawable.ic_color_yandexmail),
+            Triple("Почта Mail", "ru.mail.mailapp", R.drawable.ic_color_mailru),
+            Triple("2ГИС", "ru.dublgis.dgismobile", R.drawable.ic_color_2gis),
+            Triple("Кинопоиск", "ru.kinopoisk", R.drawable.ic_color_kinopoisk),
+            Triple("RUTUBE", "ru.rutube.app", R.drawable.ic_color_rutube),
+        )
+        apps.forEach { (label, pkg, icon) ->
+            assertEquals(label, icon, AppIcons.colorForSource(label))
+            assertEquals(pkg, icon, AppIcons.colorForSource(pkg))
+        }
+        assertEquals(R.drawable.ic_app_steam, AppIcons.forSource("Steam"))
+        assertEquals(R.drawable.ic_app_steam, AppIcons.forSource("Steam Chat"))
+        assertEquals(R.drawable.ic_app_mailru, AppIcons.forSource("ru.mail.mailapp"))
+        assertEquals(R.drawable.ic_app_kinopoisk, AppIcons.forSource("Кинопоиск"))
+    }
+
+    @Test
+    fun additionalServicesSupportLocalizedLabelsWithoutPartialMatches() {
+        assertEquals(R.drawable.ic_color_gosuslugi, AppIcons.colorForSource("  ГОСУСЛУГИ  "))
+        assertEquals(R.drawable.ic_color_steamchat, AppIcons.colorForSource("steam_chat"))
+        assertEquals(R.drawable.ic_color_ozon, AppIcons.colorForSource("Озон"))
+        assertEquals(R.drawable.ic_color_wildberries, AppIcons.colorForSource("Вайлдберриз"))
+        assertEquals(R.drawable.ic_color_yandexgo, AppIcons.colorForSource("Yandex Go"))
+        assertEquals(R.drawable.ic_color_yandexmail, AppIcons.colorForSource("Яндекс.Почта"))
+        assertEquals(R.drawable.ic_color_mailru, AppIcons.colorForSource("Mail.ru"))
+        assertEquals(R.drawable.ic_color_2gis, AppIcons.colorForSource("2GIS"))
+        listOf("Steam Helper", "Мои Госуслуги", "not.ru.rostel", "ru.ozon.app.android.fake")
+            .forEach {
+                assertEquals(R.drawable.ic_launcher_foreground, AppIcons.forSource(it))
+                assertEquals(R.drawable.ic_launcher_foreground, AppIcons.colorForSource(it))
+            }
+    }
+
+    @Test
     fun musicPlayersAndKdeConnectResolveLabelsAndPackages() {
         val apps = listOf(
             Triple("AIMP", "com.aimp.player", R.drawable.ic_color_aimp),

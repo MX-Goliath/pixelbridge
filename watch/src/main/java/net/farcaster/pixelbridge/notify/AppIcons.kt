@@ -67,6 +67,18 @@ object AppIcons {
         app(R.drawable.ic_app_foobar2000, R.drawable.ic_color_foobar2000, "foobar2000", "com.foobar2000.foobar2000")
         app(R.drawable.ic_music_music_note, R.drawable.ic_color_samsungmusic, "Samsung Music", "com.sec.android.app.music")
         app(R.drawable.ic_launcher_foreground, R.drawable.ic_color_kdeconnect, "KDE Connect", "KDEConnect", "org.kde.kdeconnect_tp")
+        app(R.drawable.ic_launcher_foreground, R.drawable.ic_color_gosuslugi, "Госуслуги", "Gosuslugi", "ru.rostel")
+        app(R.drawable.ic_app_steam, R.drawable.ic_color_steam, "Steam", "com.valvesoftware.android.steam.community")
+        app(R.drawable.ic_app_steam, R.drawable.ic_color_steamchat, "Steam Chat", "com.valvesoftware.android.steam.friendsui")
+        app(R.drawable.ic_launcher_foreground, R.drawable.ic_color_ozon, "Ozon", "Озон", "OZON: товары, одежда, билеты", "ru.ozon.app.android")
+        app(R.drawable.ic_launcher_foreground, R.drawable.ic_color_wildberries, "Wildberries", "Вайлдберриз", "WB", "com.wildberries.ru")
+        app(R.drawable.ic_launcher_foreground, R.drawable.ic_color_avito, "Авито", "Avito", "Авито – путешествия, работа, услуги, авто", "com.avito.android")
+        app(R.drawable.ic_launcher_foreground, R.drawable.ic_color_yandexgo, "Яндекс Go", "Yandex Go", "Яндекс Такси", "Yandex Taxi", "Яндекс Go: Такси, Еда, Маркет, Самокаты, Доставка", "ru.yandex.taxi")
+        app(R.drawable.ic_launcher_foreground, R.drawable.ic_color_yandexmail, "Яндекс Почта", "Яндекс.Почта", "Yandex Mail", "Яндекс Почта: умная электронная почта, облако", "ru.yandex.mail")
+        app(R.drawable.ic_app_mailru, R.drawable.ic_color_mailru, "Почта Mail", "Почта Mail.ru", "Mail.ru", "Mail: Почта, Облако, Календарь", "ru.mail.mailapp")
+        app(R.drawable.ic_launcher_foreground, R.drawable.ic_color_2gis, "2ГИС", "2GIS", "ДубльГИС", "2ГИС: навигатор, транспорт, друзья на карте", "ru.dublgis.dgismobile")
+        app(R.drawable.ic_app_kinopoisk, R.drawable.ic_color_kinopoisk, "Кинопоиск", "КиноПоиск HD", "Kinopoisk", "Кинопоиск: кино и сериалы", "ru.kinopoisk")
+        app(R.drawable.ic_launcher_foreground, R.drawable.ic_color_rutube, "RUTUBE", "Рутуб", "RUTUBE: видео, шоу, трансляции", "ru.rutube.app")
     }
 
     @DrawableRes
