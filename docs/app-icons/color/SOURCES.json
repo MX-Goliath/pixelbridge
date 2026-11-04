@@ -642,5 +642,173 @@
       512
     ],
     "round_preview": "kdeconnect.png"
+  },
+  {
+    "slug": "gosuslugi",
+    "app": "Госуслуги",
+    "package": "ru.rostel",
+    "page": "https://www.rustore.ru/catalog/app/ru.rostel",
+    "download": "https://static.rustore.ru/2026/2/19/d7/apk/537791/content/ICON/b2916730-6a34-4ebe-aedf-df926e807741.png",
+    "original": "gosuslugi.png",
+    "sha256": "343b279c2460f37ff087ce9e0588e34c5bd08b13eec21c1852a24a6a54a29cac",
+    "size": [
+      512,
+      512
+    ],
+    "round_preview": "gosuslugi.png"
+  },
+  {
+    "slug": "steam",
+    "app": "Steam",
+    "package": "com.valvesoftware.android.steam.community",
+    "page": "https://www.rustore.ru/catalog/app/com.valvesoftware.android.steam.community",
+    "download": "https://static.rustore.ru/apk/2063553595/content/ICON/b235edac-85f3-46eb-a63d-d9b3335164ab.png",
+    "original": "steam.png",
+    "sha256": "9f4157d654cc08a7906e299c4949dbd20cbafd3d2248cc9b07d0096502be7638",
+    "size": [
+      280,
+      280
+    ],
+    "round_preview": "steam.png"
+  },
+  {
+    "slug": "steamchat",
+    "app": "Steam Chat",
+    "package": "com.valvesoftware.android.steam.friendsui",
+    "page": "https://www.rustore.ru/catalog/app/com.valvesoftware.android.steam.friendsui",
+    "download": "https://static.rustore.ru/2025/11/7/04/apk/2063574474/content/ICON/2a3919f5-3734-4fef-9a33-a7a84ebd2c0a.png",
+    "original": "steamchat.png",
+    "sha256": "393327334c513f1ad30ef24d64f17ea142f5e79ad430f0d3c35e9fb4ebce7f7d",
+    "size": [
+      480,
+      480
+    ],
+    "round_preview": "steamchat.png"
+  },
+  {
+    "slug": "ozon",
+    "app": "Ozon",
+    "package": "ru.ozon.app.android",
+    "page": "https://www.rustore.ru/catalog/app/ru.ozon.app.android",
+    "download": "https://static.rustore.ru/2026/6/30/b6/apk/514239/content/ICON/8a44b15d-a16e-41a4-b926-9088693015ca.png",
+    "original": "ozon.png",
+    "sha256": "92f3c8dbd69fdd5b65d59eb88b372682954f770e83be7682d24918af840d7d5d",
+    "size": [
+      512,
+      512
+    ],
+    "round_preview": "ozon.png"
+  },
+  {
+    "slug": "wildberries",
+    "app": "Wildberries",
+    "package": "com.wildberries.ru",
+    "page": "https://www.rustore.ru/catalog/app/com.wildberries.ru",
+    "download": "https://static.rustore.ru/2026/2/11/07/apk/234943/content/ICON/b7e12348-1345-45fb-9755-2cf7a866f16f.png",
+    "original": "wildberries.png",
+    "sha256": "af539b9766561e11f93fcd81a22b1bd88f2a41863fbbf2d499cf927a8ff34194",
+    "size": [
+      512,
+      512
+    ],
+    "round_preview": "wildberries.png"
+  },
+  {
+    "slug": "avito",
+    "app": "Авито",
+    "package": "com.avito.android",
+    "page": "https://www.rustore.ru/catalog/app/com.avito.android",
+    "download": "https://static.rustore.ru/2026/1/27/d8/apk/2688703/content/ICON/ea0c42d8-934f-41a6-a3da-89798736f888.png",
+    "original": "avito.png",
+    "sha256": "425da5938e69727f5340fbd553a834942f8eb2e1edd4dfc01f2083f74fecbc0e",
+    "size": [
+      512,
+      512
+    ],
+    "round_preview": "avito.png"
+  },
+  {
+    "slug": "yandexgo",
+    "app": "Яндекс Go",
+    "package": "ru.yandex.taxi",
+    "page": "https://www.rustore.ru/catalog/app/ru.yandex.taxi",
+    "download": "https://static.rustore.ru/apk/4207807/content/ICON/8d2cb859-a102-4e4b-9bc7-b4955ac0f14c.png",
+    "original": "yandexgo.png",
+    "sha256": "e88c36a1c36fde0d650afa0b64d7c33e192544aed0ee5f1155ed405d36e1b4bb",
+    "size": [
+      512,
+      512
+    ],
+    "round_preview": "yandexgo.png"
+  },
+  {
+    "slug": "yandexmail",
+    "app": "Яндекс Почта",
+    "package": "ru.yandex.mail",
+    "page": "https://www.rustore.ru/catalog/app/ru.yandex.mail",
+    "download": "https://static.rustore.ru/2025/12/9/83/apk/319999679/content/ICON/6b55bc25-3152-485f-b58b-4496b7db6e89.png",
+    "original": "yandexmail.png",
+    "sha256": "63a640fd0699856b31b3f4db663b3910f37d52f78bc962e3941072715ce7fd09",
+    "size": [
+      512,
+      512
+    ],
+    "round_preview": "yandexmail.png"
+  },
+  {
+    "slug": "mailru",
+    "app": "Почта Mail",
+    "package": "ru.mail.mailapp",
+    "page": "https://www.rustore.ru/catalog/app/ru.mail.mailapp",
+    "download": "https://static.rustore.ru/2026/3/11/7c/apk/332223/content/ICON/2ea61211-2ee2-469b-a08e-acc8a9f3b4c6.png",
+    "original": "mailru.png",
+    "sha256": "1cf277e5106b649de4b2d6ebc2e4f6dc65aecdd7aa7c67ca8e2999424ee0dabd",
+    "size": [
+      512,
+      512
+    ],
+    "round_preview": "mailru.png"
+  },
+  {
+    "slug": "2gis",
+    "app": "2ГИС",
+    "package": "ru.dublgis.dgismobile",
+    "page": "https://www.rustore.ru/catalog/app/ru.dublgis.dgismobile",
+    "download": "https://static.rustore.ru/2026/2/2/1e/apk/260799/content/ICON/8e439c58-11cf-4e0a-a3dc-9596eda08cfd.png",
+    "original": "2gis.png",
+    "sha256": "72c7e7bb9270386ff77e09992ab7bf11e7266e0716745f9c0d070bdddc89fcfe",
+    "size": [
+      512,
+      512
+    ],
+    "round_preview": "2gis.png"
+  },
+  {
+    "slug": "kinopoisk",
+    "app": "Кинопоиск",
+    "package": "ru.kinopoisk",
+    "page": "https://www.rustore.ru/catalog/app/ru.kinopoisk",
+    "download": "https://static.rustore.ru/2026/7/24/d4/apk/91614143/content/ICON/62ce23b0-ba78-4112-9a3d-20ced6b7806c.png",
+    "original": "kinopoisk.png",
+    "sha256": "3f29546bd1b262f96a372c813a518ee15e5fdf4d75683fc721a5df00acfc8309",
+    "size": [
+      512,
+      512
+    ],
+    "round_preview": "kinopoisk.png"
+  },
+  {
+    "slug": "rutube",
+    "app": "RUTUBE",
+    "package": "ru.rutube.app",
+    "page": "https://www.rustore.ru/catalog/app/ru.rutube.app",
+    "download": "https://static.rustore.ru/2026/8/27/7f/apk/246207/content/ICON/aa57aed4-f944-41ca-a2db-0c373d9cc720.png",
+    "original": "rutube.png",
+    "sha256": "657845d43674a80839f1e56ef781a338724c0eaa7c88993911571dce3da812be",
+    "size": [
+      512,
+      512
+    ],
+    "round_preview": "rutube.png"
   }
 ]

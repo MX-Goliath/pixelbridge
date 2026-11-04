@@ -58,6 +58,9 @@ ICONS = {
     "github": "GitHub",
     "element": "Element",
     "mastodon": "Mastodon",
+    "steam": "Steam",
+    "mailru": "Mail.Ru",
+    "kinopoisk": "Kinopoisk",
     "vlc": "VLC media player",
     "youtubemusic": "YouTube Music",
     "applemusic": "Apple Music",
@@ -68,7 +71,7 @@ ICONS = {
     "antennapod": "AntennaPod",
     "foobar2000": "foobar2000",
 }
-SOURCE_SLUGS = {"vlc": "vlcmediaplayer"}
+SOURCE_SLUGS = {"vlc": "vlcmediaplayer", "mailru": "maildotru"}
 
 
 def download(url):
@@ -168,7 +171,7 @@ def main():
     lines = [
         "# Встроенные значки приложений", "",
         f"{len(colors)} круглых цветных иконок Android-приложений: [папка для проверки](round/).",
-        "Изображения скачаны со страниц приложений в Google Play; иконка VK — из RuStore.",
+        "Изображения скачаны со страниц приложений в Google Play и RuStore.",
         "Оригиналы сохранены в [color/](color/), круглые версии — в [round/](round/).",
         "Иконки скачаны, не нарисованы и не перекрашены; у копий только обрезаны углы по кругу.", "",
         "Прозрачные логотипы размещены на белой круглой подложке.", "",
@@ -178,6 +181,7 @@ def main():
         "Маленький системный значок Android/Wear OS отображается как одноцветная маска.",
         "Для него отдельно оставлены [SVG-маски Simple Icons](notification-masks/).",
         "У плееров без отдельной монохромной маски используется общая музыкальная нота.",
+        "У остальных приложений без отдельной маски маленький значок — логотип PixelBridge.",
         "Это ограничение системного маленького значка, а не цветной иконки в карточке.", "",
         "Прямые URL, страницы приложений, размеры и SHA-256: [color/SOURCES.json](color/SOURCES.json).",
         "Права на изображения и товарные знаки сохраняются за соответствующими владельцами.",

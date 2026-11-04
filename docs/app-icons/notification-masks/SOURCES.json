@@ -355,6 +355,46 @@
     }
   },
   {
+    "slug": "steam",
+    "app": "Steam",
+    "download": "https://raw.githubusercontent.com/simple-icons/simple-icons/5664507081ffb65b5a2a0ed2bf2ee2b3b327cb4e/icons/steam.svg",
+    "sha256": "5eef8f31106b81956ed908490bcf8c73abe476aa58bb9041acdf70b0d42ebcae",
+    "upstream": {
+      "title": "Steam",
+      "hex": "000000",
+      "source": "https://partner.steamgames.com/doc/marketing/branding",
+      "guidelines": "https://partner.steamgames.com/doc/marketing/branding"
+    }
+  },
+  {
+    "slug": "mailru",
+    "app": "Mail.Ru",
+    "download": "https://raw.githubusercontent.com/simple-icons/simple-icons/5664507081ffb65b5a2a0ed2bf2ee2b3b327cb4e/icons/maildotru.svg",
+    "sha256": "6aec2ce0e28784e8778e5da2dc222152d8b1858a477e6ff417ac1249494ec1f3",
+    "upstream": {
+      "title": "Mail.Ru",
+      "hex": "005FF9",
+      "source": "https://my.mail.ru"
+    }
+  },
+  {
+    "slug": "kinopoisk",
+    "app": "Kinopoisk",
+    "download": "https://raw.githubusercontent.com/simple-icons/simple-icons/5664507081ffb65b5a2a0ed2bf2ee2b3b327cb4e/icons/kinopoisk.svg",
+    "sha256": "c17362c835f79f2cbf7402e26de22bec71e555dc9df8a77844b0c9dff226b3de",
+    "upstream": {
+      "title": "Kinopoisk",
+      "hex": "FF5500",
+      "source": "https://www.kinopoisk.ru/special/branding",
+      "guidelines": "https://www.kinopoisk.ru/special/branding",
+      "aliases": {
+        "loc": {
+          "ru-RU": "КиноПоиск"
+        }
+      }
+    }
+  },
+  {
     "slug": "vlc",
     "app": "VLC media player",
     "download": "https://raw.githubusercontent.com/simple-icons/simple-icons/5664507081ffb65b5a2a0ed2bf2ee2b3b327cb4e/icons/vlcmediaplayer.svg",
